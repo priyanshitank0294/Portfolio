@@ -1,0 +1,57 @@
+.work-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: start;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  padding: 25px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tags span {
+  padding: 8px 16px;
+  border-radius: 30px;
+  background: #f3f3f3;
+  font-size: 14px;
+}
+
+.card h2 {
+  margin: 15px 0;
+}
+
+.card p {
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+
+.card-large {
+  grid-row: span 2;
+}
+

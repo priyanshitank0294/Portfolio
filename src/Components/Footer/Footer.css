@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left p,
+.footer-right p {
+  margin: 5px 0;
+  font-size: 17px;
+  color: #7b7b8a;
+}
+
+.footer-left strong {
+  color: #4f566b;
+  font-weight: 600;
+}
+
+.footer-right {
+  text-align: right;
+}
+

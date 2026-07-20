@@ -1,0 +1,86 @@
+.container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.my-card {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.heading {
+    color: #ff5a22;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.text {
+    color: #111111;
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 800;
+    text-align: left;
+}
+
+
+.cards,
+.cards-dark {
+    flex: 1;
+    padding: 40px;
+    border-radius: 20px;
+    min-height: 330px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+.cards {
+    background-color: #fcfcfc;
+    border: 1px solid #eaeaea;
+}
+
+
+.cards-dark {
+    background-color: #141414;
+    border: none;
+}
+
+
+.cards h3,
+.cards-dark h3 {
+    font-size: 1.8rem;
+    margin: 20px 0 15px;
+    font-weight: 700;
+}
+
+.cards h3 {
+    color: #111111;
+}
+
+.cards-dark h3 {
+    color: #ffffff;
+}
+
+
+.cards p,
+.cards-dark p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.cards p {
+    color: #666666;
+}
+
+.cards-dark p {
+    color: #aaaaaa;
+}
+
