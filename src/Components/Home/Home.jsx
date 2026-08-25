@@ -13,7 +13,7 @@ const Home = () => {
         </p>
 
         <h1>
-          Hi, I'm <span>Eliott</span>
+          Hi, I'm <span>Priyanshi</span>
         </h1>
 
         <h2>
